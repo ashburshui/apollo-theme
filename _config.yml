@@ -1,9 +1,9 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    Zhihu: https://www.zhihu.com/people/ashburshui/activities
+    GitHub: https://github.com/ashburshui
+    StackOverflow: https://stackoverflow.com/users/2936650/ashburshui
 
 favicon: /favicon.png
 logo: /favicon.png
@@ -18,4 +18,4 @@ duoshuo:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2019
