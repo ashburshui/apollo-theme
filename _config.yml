@@ -1,9 +1,9 @@
 menu:
     Blog: /
     Archive: /archives/
-    Quora: https://www.quora.com/profile/ashburshui
     GitHub: https://github.com/ashburshui
     StackOverflow: https://stackoverflow.com/users/2936650/ashburshui
+    Travel: https://ashburshui.github.io/travel-record/
 
 favicon: /favicon.png
 logo: /favicon.png
