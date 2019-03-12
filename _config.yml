@@ -1,9 +1,9 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    GitHub: https://ashburshui.github.io/github-card
-    StackOverflow: https://ashburshui.github.io/stackoverflow-card
-    Travel: https://ashburshui.github.io/travel
+  Blog: /
+  Archive: /archives/
+  Practice: https://ashburshui.github.io/github-card
+  Learning: https://ashburshui.github.io/stackoverflow-card
+  Travel: https://ashburshui.github.io/travel
 
 favicon: /favicon.png
 logo: /favicon.png
