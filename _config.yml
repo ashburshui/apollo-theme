@@ -1,15 +1,15 @@
 menu:
   Blog: /
   Archive: /archives/
-  Practice: https://ashburshui.github.io/github-card
+  Crafts: https://ashburshui.github.io/github-card
   Learning: https://ashburshui.github.io/stackoverflow-card
+  Health: https://ashburshui.github.io
   Travel: https://ashburshui.github.io/travel
 
 favicon: /favicon.png
 logo: /favicon.png
 
 # Comment
-# e.g disqus: seansun
 disqus: ashburshui-github-io
 duoshuo:
 
