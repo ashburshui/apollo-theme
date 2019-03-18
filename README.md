@@ -5,10 +5,6 @@
 - [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
 - [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
 
-## 贡献
-
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
-
 ## 安装
 
 [![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
@@ -21,10 +17,6 @@ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap
 git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 ```
 
-## 启用
-
-修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
-
 ```yaml
 theme: apollo
 
@@ -36,14 +28,3 @@ archive_generator:
     monthly: false
     daily: false
 ```
-
-## 更新
-
-``` bash
-cd themes/apollo 
-git pull
-```
-
-## License
-
-MIT
