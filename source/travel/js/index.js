@@ -100,7 +100,7 @@ $(function () {
         },
 
         subtitle: {
-            text: 'Don\'t listen to what they say. Go see.',
+            text: 'World',
         },
 
         mapNavigation: {
