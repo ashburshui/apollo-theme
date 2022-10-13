@@ -55,19 +55,37 @@ $(function () {
 
     const jp_data = Highcharts.geojson(Highcharts.maps['countries/jp/jp-all']);
 
+    // NA
+    const ca_data = Highcharts.geojson(Highcharts.maps['countries/ca/ca-all']);
+    const us_data = Highcharts.geojson(Highcharts.maps['countries/us/us-all']);
+
     // Set drilldown pointers
     $.each(world_data, function (i) {
 
-        if (this.properties[property] == 'cn') {
+        if (this.properties[property] === 'cn') {
             this.drilldown = getDrilldown(
                 cn_data,
                 visited_states_in_china);
             this.drilldownLabel = 'China';
-        } else if (this.properties[property] == 'jp') {
+        } else if (this.properties[property] === 'jp') {
             this.drilldown = getDrilldown(
                 jp_data,
                 visited_states_in_japan);
             this.drilldownLabel = 'Japan';
+        } else if (this.properties[property] === 'ca') {
+            this.drilldown = getDrilldown(
+                ca_data,
+                [
+                    'ca-on',
+                ]);
+            this.drilldownLabel = 'Canada';
+        } else if (this.properties[property] === 'us') {
+            this.drilldown = getDrilldown(
+                us_data,
+                [
+                    'us-ny',
+                ]);
+            this.drilldownLabel = 'United States of America';
         }
 
         this.value = visited_countries.indexOf(this.properties[property]);
